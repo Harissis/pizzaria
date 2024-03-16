@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Buonna Pizza</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffcc00;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #ffcc00;
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pizzaria Buonna Pizza</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="#quem-somos">Quem Somos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#reserve">Reserve o seu pedido</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="cardapio">
+            <h2>Cardápio</h2>
+            <h3>Pizzas</h3>
+            <ul>
+                <li>
+                    <h4>Calabresa</h4>
+                    <p>Molho, Mussarela, Calabresa, Cebola, Azeitona e Orégano</p>
+                    <p>R$ 49.00</p>
+                </li>
+                <li>
+                    <h4>Quatro Queijos</h4>
+                    <p>Molho, Mussarela, Provolone, Parmesão, Gorgonzola, Tomate, Azeitona e Orégano</p>
+                    <p>R$ 52,00</p>
+                </li>
+                <li>
+                    <h4>Italiana</h4>
+                    <p>Molho, Mussarela, Catupiry, Salaminho, Azeitona e Orégano</p>
+                    <p>R$ 59,99</p>
+                </li>
+                <li>
+                    <h4>Presunto</h4>
+                    <p>Molho, Mussarela, Presunto, Tomate, Azeitona e Orégano</p>
+                    <p>R$ 51,00</p>
+                </li>
+            </ul>
+            
+            <h3>Bebidas</h3>
+            <ul>
+                <li>Coca-Cola 1,5L - R$ 7,00</li>
+                <li>Coca-Cola 2L - R$ 10,00</li>
+                <li>Coca-Cola Lata - R$ 4,00</li>
+            </ul>
+        </section>
+        
+        <section id="quem-somos">
+            <h2>Quem Somos</h2>
+            <p>A Pizzaria Buonna Pizza abriu as portas em 1910, fundada pelo pizzaiolo Carmino Corvino quando este veio morar no Brasil, no tradicional bairro paulistano conhecido como Brás.</p>
+        </section>
+        
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>WhatsApp (11)97777-7777</p>
+            <p>Instagram @buonnapizza</p>
+        </section>
+        
+        <section id="reserve">
+            <h2>Reserve o seu pedido</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" required>
+                
+                <label for="pedido">Pedido:</label>
+                <textarea id="pedido" name="pedido" required></textarea>
+                
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Pizzaria Buonna Pizza</p>
+    </footer>
+</body>
+</html>
